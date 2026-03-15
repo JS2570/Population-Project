@@ -41,11 +41,11 @@ var_sources <- list(
     mx_norm_ratio = "country_table",
     mx_skew = "country_table",
     mx_kurtosis = "country_table",
-    B = "country_table",                    # ← ADD
-    M = "country_table",                    # ← ADD
-    Z = "country_table",                    # ← ADD
-    PrR = "country_table",                  # ← ADD
-    prop_survive_to_M = "country_table"     # ← ADD
+    B = "country_table",                    
+    M = "country_table",                    
+    Z = "country_table",                    
+    PrR = "country_table",                  
+    prop_survive_to_M = "country_table"     
 )
 
 
@@ -62,11 +62,11 @@ var_display_names <- c(
     "mx_norm_ratio" = "R0/TFR",
     "mx_skew" = "mx Skew",
     "mx_kurtosis" = "mx Kurtosis",
-    "B" = "Fertility Start (B)",                        # ← ADD
-    "M" = "Fertility End (M)",                          # ← ADD
-    "Z" = "Cohort Longevity (Z)",                       # ← ADD
-    "PrR" = "Post-fertile Ratio (PrR)",                 # ← ADD
-    "prop_survive_to_M" = "Survival to M"               # ← ADD
+    "B" = "Fertility Start (B)",                        
+    "M" = "Fertility End (M)",                          
+    "Z" = "Cohort Longevity (Z)",                       
+    "PrR" = "Post-fertile Ratio (PrR)",                 
+    "prop_survive_to_M" = "Survival to M"               
 )
 
 # Define UI
